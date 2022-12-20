@@ -15,3 +15,15 @@ footer {
   background: #343a40;
   color: white;
 }
+
+.masthead {
+  background: url("../img/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+  background-size: auto;
+  height: 100vh;
+}
+
+.intro-heading {
+  color: #fed136;
+  border-color: #0b0b0b;
+  text-shadow: 6px 0px 20px #000000;
+}
