@@ -65,7 +65,9 @@ footer {
 }
 
 @media screen and (max-width: 475px) {
- 
+ h2.section-heading{
+  font-size: 35px !important;
+ }
 #about p{
   padding: 0 16px;
 }
