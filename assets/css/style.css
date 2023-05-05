@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.card-bs {
+  box-shadow: -1px 5px 18px 2px rgb(0 0 0 / 23%);
+  padding: 10px;
+  margin: 0 5px;
+ 
+}
+#programs{
+  margin: 0 auto;
+}
 .pad70 {
   padding: 70px 0;
 }
@@ -28,8 +37,8 @@ footer {
   text-shadow: 6px 0px 20px #000000;
 }
 
-@media screen and(min-width: 600px) {
-  p{
-    font-size: 1rem;
+@media screen and (min-width: 900px) {
+  #about p {
+    font-size: 1.5rem;
   }
 }
