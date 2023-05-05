@@ -43,12 +43,19 @@ footer {
   text-shadow: 6px 0px 20px #000000;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 975px) {
   #about p {
     font-size: 1.5rem;
   }
 
   .card-bs {
     width: 30%;
+  }
+}
+@media screen and (max-width: 975px) {
+ 
+
+  .card-bs {
+    width: calc(100% - 20px);
   }
 }
