@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta name="description" content="The DMIT program at NAIT is designed to equip students with the knowledge and skills needed to succeed in the rapidly evolving digital media and IT industries. The program is structured around nine different concentrations, each of which provides students with a focused education in a particular aspect of digital media and IT.">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
         <title>Home - NAIT DMIT</title>
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
@@ -26,8 +28,10 @@
         >
         <link rel="manifest" href="assets/img//site.webmanifest">
         <link rel="mask-icon" href="assets/img//safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
+
+        <script src="assets/bootstrap/js/bootstrap.min.js" defer></script>
+        <script src="assets/js/bs-init.js" defer></script>
+        <script src="assets/js/agency.js" defer></script>
     </head>
     <body
         id="page-top"
@@ -51,7 +55,7 @@
                         href="#about"
                         style="background: #fed136"
                     >
-                        Tell mE more
+                        Tell Me more
                     </a
           >
                 </div>
@@ -69,36 +73,20 @@
                         type="button"
                         aria-controls="navbarResponsive"
                         aria-expanded="false"
-                        aria-label="Toggle navigation"
+                        aria-label="Toggle navigation" data-bs-auto-close="false"
                     >
                         <i class="fa fa-bars"></i>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div class="collapse navbar-collapse" id="navbarResponsive" role="button">
                         <ul class="navbar-nav ms-auto text-uppercase">
                             <li class="nav-item dropdown">
-                                <a
-                                    class="dropdown-toggle nav-link"
-                                    aria-expanded="true"
-                                    data-bs-toggle="dropdown"
-                                    href="#programs"
-                                >
-                                    PROGRAMS&nbsp;
-                                </a
-                >
-                                <div class="dropdown-menu" data-bs-popper="none">
-                                    <a class="dropdown-item" href="web-development-design.html">
-                                        WEB DEVELOPMENT
-                                    </a
-                  >
-                                    <a class="dropdown-item" href="visual-communications.html">
-                                        VISUAL COMMUNICATIONS
-                                    </a
-                  >
-                                    <a class="dropdown-item" href="animations.html">
-                                        ANIMATIONS
-                                    </a
-                  >
-                                </div>
+                              <a class="dropdown-toggle nav-link" aria-expanded="true" data-bs-toggle="dropdown" href="#programs" data-bs-auto-close="false">PROGRAMS&nbsp;</a>
+                              <div class="dropdown-menu" data-bs-popper="none">
+                                <a class="dropdown-item" href="web-development-design.html">WEB DEVELOPMENT</a>
+                                <a class="dropdown-item" href="visual-communications.html">VISUAL COMMUNICATIONS</a>
+                                <a class="dropdown-item" href="animations.html">ANIMATIONS</a>
+                            </div>
+                            
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">About</a>
@@ -346,29 +334,11 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-12">
                         <span class="copyright">Copyright&nbsp;© Brand 2022</span>
                     </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
+
+                    <div class="col-md-12">
                         <p>
                           Disclaimer: This is a mock website and not the official NAIT DMIT website.
                         </p>
@@ -376,8 +346,6 @@
                 </div>
             </div>
         </footer>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/bs-init.js"></script>
-        <script src="assets/js/agency.js"></script>
+
     </body>
 </html>

@@ -3399,6 +3399,7 @@ fieldset:disabled .btn {
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  text-align: center;
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
