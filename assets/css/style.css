@@ -67,6 +67,7 @@ footer {
  
 
   .card-bs {
-    width: calc(95% - 20px);
+    width: calc(85% - 20px);
+    margin: 20px auto;
   }
 }
