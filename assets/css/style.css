@@ -1,7 +1,8 @@
-body{
+body {
   overflow-x: hidden;
   margin: 0 auto !important;
 }
+
 .center {
   text-align: center;
 }
@@ -14,7 +15,12 @@ body{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border-radius: 20px;
+}
 
+.portfolio-caption {
+  background-color: #000 !important;
+  color: white;
 }
 
 #programs {
@@ -56,8 +62,9 @@ footer {
     width: calc(30% - 1.25rem);
   }
 }
+
 @media screen and (max-width: 975px) {
- 
+
 
   .card-bs {
     width: calc(100% - 20px);
@@ -65,12 +72,14 @@ footer {
 }
 
 @media screen and (max-width: 475px) {
- h2.section-heading{
-  font-size: 35px !important;
- }
-#about p{
-  padding: 0 16px;
-}
+  h2.section-heading {
+    font-size: 35px !important;
+  }
+
+  #about p {
+    padding: 0 16px;
+  }
+
   .card-bs {
     width: calc(85% - 20px);
     margin: 20px auto;
